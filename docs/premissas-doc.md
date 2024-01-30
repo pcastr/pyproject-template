@@ -16,7 +16,7 @@ funções, classes e métodos.
 * **Outras informações:** Esta seção pode incluir informações adicionais sobre o projeto, como exemplos, referências ou licença.
 
 !!!tip "Padrões de documentação"
-    Para entender melhor sobre os padrões de documentação desse projeto, clique [aqui](docs/patterns-doc.md)
+    Para entender melhor sobre os padrões de documentação desse projeto, clique [aqui](patterns-doc.md)
 
 ## Exemplo de estrutura de documentação
 
