@@ -1,4 +1,6 @@
-# teste
+# Documentação tabela de empreendimentos
+
+::: src.teste.Empreendimentos
 
 ::: src.teste.Endereco
 
@@ -6,4 +8,3 @@
 
 ::: src.teste.Projeto
 
-::: src.teste.Empreendimentos
