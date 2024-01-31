@@ -1,29 +1,17 @@
 # Documentação tabela de empreendimentos
 
-<details>
-<summary>Empreendimentos</summary>
 
-    ::: src.teste.Empreendimentos
+::: src.teste.Empreendimentos
 
-</details>
 
-<details>
-<summary>Empreendimentos.Endereço</summary>
    
-    ::: src.teste.Endereco
+::: src.teste.Endereco
 
-</details>
 
-<details>
-<summary>Empreendimentos.CentroCusto</summary>
     
-    ::: src.teste.CentroCusto
+::: src.teste.CentroCusto
 
-</details>
 
-<details>
-<summary>Empreendimentos.Projeto</summary>
 
-    ::: src.teste.Projeto
+::: src.teste.Projeto
 
-</details>
