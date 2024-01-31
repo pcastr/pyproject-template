@@ -26,20 +26,25 @@ theme:
         icon: material/weather-night
         name: "Trocar para preferências do sistema"
   language: pt
-  favicon: img/hype_logo.png
-  logo: img/hype_logo_escura.png
+  favicon: img/open-source.png
+  logo: img/open-source.png
 
 repo_name: "pyproject-template"
 repo_url: "https://github.com/pcastr/pyproject-template"
 
-# watch:
-#   - src
+watch:
+  - src
 #   - tests
 #
 plugins:
   - search
   - mkdocstrings: 
       default_handler: python
+      handlers: 
+        python:
+          options:
+            docstring_section_style: table
+      
 
 markdown_extensions:
   - admonition
@@ -52,10 +57,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Docs:
-    - 'Premissas da documentação': premissas-doc.md
-    - 'Padrões de documentação': patterns-doc.md
-
 extra_css:
   - stylesheets/extra.css
 
