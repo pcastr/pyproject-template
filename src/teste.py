@@ -59,7 +59,7 @@ class Projeto(BaseModel):
     """
     Representa o projeto do empreendimento.
 
-    Attributes::
+    Attributes:
         id (str): Identificador único do projeto.
         padrao (int): Indica se é um projeto padrão.
         identificador (str): Identificador do projeto.
