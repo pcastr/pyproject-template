@@ -1,0 +1,48 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 24.4.2 # Use a versão 24.4.2 do Black
+    hooks:
+      - id: black
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.1.0 # Use a versão 7.1.0 do Flake8
+    hooks:
+      - id: flake8
+
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.10.1 # Use a versão 5.13.2 do isort
+    hooks:
+      - id: isort
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0 # Use uma versão estável do pre-commit-hooks
+    hooks:
+      - id: trailing-whitespace # Remove espaços em branco no final das linhas
+      - id: end-of-file-fixer # Garante uma linha vazia no final de cada arquivo
+      - id: check-yaml # Verifica a sintaxe dos arquivos YAML
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.10.1 # Use a versão 0.910 do mypy
+    hooks:
+      - id: mypy
+
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.9 # Use a versão 1.7.0 do bandit
+    hooks:
+      - id: bandit
+        args: ["--skip", "B101"]
+
+  - repo: https://github.com/pre-commit/mirrors-pylint
+    rev: v3.0.0a5 # Use a versão 2.13.9 do pylint
+    hooks:
+      - id: pylint
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v2.3.2 # Use a versão 2.3.2 do prettier
+    hooks:
+      - id: prettier
+
+  - repo: https://github.com/Yelp/detect-secrets
+    rev: v1.5.0 # Use a versão 1.0.3 do detect-secrets
+    hooks:
+      - id: detect-secrets

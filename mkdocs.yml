@@ -38,13 +38,12 @@ watch:
 #
 plugins:
   - search
-  - mkdocstrings: 
+  - mkdocstrings:
       default_handler: python
-      handlers: 
+      handlers:
         python:
           options:
             docstring_section_style: table
-      
 
 markdown_extensions:
   - admonition
@@ -54,9 +53,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
 
-
 nav:
   - Home: index.md
 extra_css:
   - stylesheets/extra.css
-

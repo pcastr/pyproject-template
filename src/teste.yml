@@ -1,4 +1,3 @@
-
 # Um exemplo de um datacontract.yml usado com Pydantic
 
 # Definindo um modelo de usuário
@@ -39,4 +38,3 @@ order:
           quantity:
             type: integer
             required: true
-
