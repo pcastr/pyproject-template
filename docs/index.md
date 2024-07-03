@@ -8,3 +8,5 @@
 - Para verificar e corrigir automaticamente problemas de formatação e estilo de código antes de commits, use pre-commit.
 - Para padronizar e automatizar mensagens de commit, use commitizen.
 - Para gerar e manter a documentação do projeto de forma simples e estruturada, use mkdocs.
+
+## Regras de commit
