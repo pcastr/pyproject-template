@@ -18,6 +18,7 @@ commitizen = "^3.27.0"
 mkdocs = "^1.6.0"
 mkdocstrings-python = "^1.10.5"
 pymdown-extensions = "^10.8.1"
+mkdocs-material = "^9.5.28"
 
 isort = "^5.13.2"
 neovim = "^0.3.1"
@@ -27,7 +28,6 @@ flake8 = "^7.1.0"
 
 taskipy = "^1.13.0"
 pytest = "^8.2.2"
-mkdocs-material = "^9.5.28"
 
 
 [tool.commitizen]
