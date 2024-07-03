@@ -1,4 +1,4 @@
-# Setup básico para projeto
+# Setup básico para projeto Python
 
 ## Pré-requisitos
 
